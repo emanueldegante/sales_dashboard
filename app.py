@@ -211,4 +211,5 @@ def update_dashboard(selected_clients, selected_products, selected_lots, start_d
 
 # -------------------- RUN SERVER --------------------
 if __name__ == "__main__":
-    app.run_server(host="0.0.0.0", port=8080)  # Render automatically assigns ports
+    app.run(host="0.0.0.0", port=8080)  # Render automatically assigns ports
+
